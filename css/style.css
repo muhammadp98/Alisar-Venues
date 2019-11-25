@@ -596,15 +596,18 @@ textarea.input {
   margin-bottom: 60px;
 }
 
-.modal-dialog {
-  margin: 20px;
-}
 
 .speaker-modal .modal-content {
   border: none;
   border-radius: 2px;
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+}
+
+@media (max-width: 960px) {
+  .speaker-modal .modal-content h2 {
+    margin-top: 2vh;
+  }
 }
 
 .speaker-modal .speaker-modal-close {
