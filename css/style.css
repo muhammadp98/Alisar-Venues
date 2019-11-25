@@ -589,10 +589,14 @@ textarea.input {
 
 
 .speaker-modal .modal-dialog {
-  width: 100%;
+  width: 90%;
   max-width: 970px;
   margin-top: 60px;
   margin-bottom: 60px;
+}
+
+.modal-dialog {
+  margin: 20px;
 }
 
 .speaker-modal .modal-content {
@@ -625,7 +629,6 @@ textarea.input {
 }
 
 .speaker-modal .modal-body {
-  padding: 30px;
 }
 
 .speaker-modal .speaker-modal-img>img {
@@ -1099,7 +1102,7 @@ textarea.input {
 
 
 .wrap {
-  height: 35vh;
+  height: 40vh;
   margin-top: 5vh;
 }
 .cool-b4-form .btn {
